@@ -1,5 +1,7 @@
 "use server";
-
+/**
+ * This contains the actions that can be performed on the invoices.
+ */
 import { sql } from "@vercel/postgres";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
